@@ -6,26 +6,30 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+  margin: 0 auto;
+  font-family: $serif;
+  font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: #6288a5;
+	border-color: #326891;
+	color: white;
+	font-weight: 700;
+	padding: 8px;
+	border-radius: 3px;
+  -webkit-transition: width 2s, height 4s;
+	transition: width 2s, height 4s;
+	font-family: $sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color:#326891;
+	border-color: #265e8b;
 }
 
 /*
