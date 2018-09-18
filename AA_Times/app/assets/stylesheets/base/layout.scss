@@ -23,7 +23,7 @@ button {
 	transition: width 2s, height 4s;
 	font-family: $sans-serif;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 10px;
 	text-align: center;
 }
 
@@ -50,4 +50,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+.hidden {
+  
 }
